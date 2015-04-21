@@ -2,3 +2,59 @@
   <img src="http://openweathermap.org/img/w/<%= @icon %>.png" alt="weather icon">
   <%= @result %>
 </h1>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      Latitude
+    </div>
+    <div class="col-md-6">
+      <%= @latitude %>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      Longitude
+    </div>
+    <div class="col-md-6">
+      <%= @longitude %>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      Wind Speed
+    </div>
+    <div class="col-md-6">
+      <%= @wind_speed %>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      Wind Direction
+    </div>
+    <div class="col-md-6">
+      <%= @wind_direction %>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      Max Temperature
+    </div>
+    <div class="col-md-6">
+      <%= @max_temperature %>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      Min Temperature
+    </div>
+    <div class="col-md-6">
+      <%= @min_temperature %>
+    </div>
+  </div>
+</div>
